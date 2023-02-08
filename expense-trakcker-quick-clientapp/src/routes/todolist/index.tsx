@@ -1,9 +1,8 @@
 import { component$ } from '@builder.io/qwik';
 import { DocumentHead, loader$, action$, zod$, z, Form } from '@builder.io/qwik-city';
+import { ListItem } from '~/models/listitem.model';
 
-interface ListItem {
-  text: string;
-}
+
 
 export const list: ListItem[] = [];
 
